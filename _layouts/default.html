@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/imgs/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/default.css">
+  </head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="/js/jquery.unveil.min.js"</script>
+  <script>
+   $(function() {
+     $("img").unveil(300);
+   });
+  </script>
+  <body>
+    <!-- <nav align="center">
+         <ul>
+         <li><a href="/">^</a></li>
+         <li><a href="/news">n</a></li>
+         <li><a href="/ex">ex</a></li>
+         <li><a href="/prfm">prfm</a></li>
+         <li><a href="/wksp">wksp</a></li>
+         <li><a href="/itm">+-=</a></li>
+         <li><a href="/about">@</a></li>
+         </ul>
+         </nav> -->
+    <nav>
+      <img id="logo" src="/imgs/logo.jpg">
+      <div><a href="/">^</a></div>
+      <div><a href="/news">n</a></div>
+      <div><a href="/ex">ex</a></div>
+      <div><a href="/prfm">prfm</a></div>
+      <div><a href="/wksp">wksp</a></div>
+      <div><a href="/itm">+-=</a></div>
+      <div><a href="/about">@</a></div>
+    </nav>
+    <div class="container">
+      
+      {{ content }}
+      
+    </div><!-- /.container -->
+    <footer align="center">
+      <ul>
+        <li><a href="https://www.facebook.com/dianaband.info">fb</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

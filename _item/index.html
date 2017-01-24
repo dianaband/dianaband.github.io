@@ -1,0 +1,12 @@
+---
+layout: default
+title: shop
+---
+<div class="flex-wrapper">
+  {% for article in site.items %}
+  <article width="300px">
+    <a href="{{ article.url }}"><img src="{{ article.image_path }}" alt="{{ article.title }}" width="100%" align="center"/></a>
+    <p>{{ article.title }}</p>
+  </article>
+  {% endfor %}
+</div>
