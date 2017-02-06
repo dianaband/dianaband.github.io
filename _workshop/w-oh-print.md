@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OH!P. 오!프린트 워크숍 
-image_path: /imgs/pwc1_s.jpg
+image_path: /imgs/wc01_s.jpg
 ---
 
 
